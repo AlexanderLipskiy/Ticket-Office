@@ -3,6 +3,7 @@
 *.user
 *.slnx
 *.vcxproj
+*.filters
 
 # Результаты сборки
 Debug/
