@@ -101,7 +101,7 @@ int main() {
 	std::cout << std::left << std::setw(15) << "Weekday" << std::right << std::setw(15) << ((weekday == 2) ? tuesday_rate - 100 : (weekday == 6 || weekday == 7) ? weekend_rate - 100 : 0) << "%" << '\n';
 	std::cout << std::setfill('-') << std::setw(30) << "-" << '\n';
 	std::cout << std::setfill(' ');
-	std::cout << std::left << std::setw(15) << "Total" << std::right << std::setw(15) << total_price / 100 << " rub " << total_price % 10 << " kop" << '\n';
+	std::cout << std::left << std::setw(15) << "Total" << std::right << std::setw(15) << total_price / 100 << " rub " << total_price % 100 << " kop" << '\n';
 
 	std::cout << "\nThanks for using Ticket Office!\n";
 	return 0;
